@@ -133,17 +133,36 @@ Push your changes to the repository and ask for a pull request if needed.
 ```
 
 You uploaded your new branch to our repository.
+
 The merge magic needs to happen now for the code changes to get integrated in the main branch.
+
+This is done with a pull request to a repository where you politely ask the owner of the repository that you'd like
+to upload your changes with the owners.
 
 ----
 
 ## Trunk based Development
 
+This way is largely adopted by smaller groups just because it's easier and with less formalities. 
+With a team it goes like this.
+
+* Clone the main to your local machine with a local branch.
+* Make your changes in that branch.
+* fetch the remote main and start merging locally analyzing what code is conflicting.
+* When done, push your code. 
+
+This is normally done with a CI/CD application on the side. This application would normally test your changes and deploy if the test list goes all green.
+A CI/CD app is very important, but in this meetup, we'll might not have enough time to deploy it. We'll see.
+
+For trunk based development to happen, the owner has to add colaborators proper privileges to commit directly to his/her repo. 
+
 ## GitPod
 
 Here's where I pray I show you something new now.
 
-Grab your repo link and prefix it with gitpod.io/#repo-link.git
+Grab your repo link and prefix it with gitpod.io/# like this: 
+
+> gitpod.io/#https://github.com/Unisergius/simple-math-api-exercise
 
 Watch the magic.
 
