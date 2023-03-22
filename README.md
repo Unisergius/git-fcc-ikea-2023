@@ -2,7 +2,7 @@
 
 Git:
 
-* Free DevOps Tool
+* Free Version Control Tool
 * Open Source
 * Version Control System
 * For TEAMS and SOLO too.
